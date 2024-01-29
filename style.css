@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav--items {
+    background-color: #F55A5A;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav--icon {
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.nav--title {
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.App {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: column;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+.loc-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.card-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-flow: row;
+    margin: 15px 0;
+}
+
+.loc-name {
+    letter-spacing: 0.15em;
+    margin-right: 0.1em;
+    font-size: 13px;
+}
+
+.loc-google {
+    color: grey;
+    font-size: 12px;
+}
+
+.card-title {
+    margin-top: 5px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-date {
+    letter-spacing: 0.08em;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.card-description {
+    font-size: 12px;
+}
